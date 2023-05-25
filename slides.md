@@ -121,22 +121,38 @@ logoHeader: true
 
 ---
 layout: about-kolibri
-logoHeader: true
+logoHeader: false
 ---
+
+
+<!--  - **cross-funktionales Team:** Softwarearchitektur, Koordinierende Stelle für die Barrierefreiheit, Barrierefreiheitstest und Architekturmanagement-->
 
 # Facts
 
 - **Start 2021** als internes Projekt
-  - **cross-funktionales Team:** Softwarearchitektur, Koordinierende Stelle für die Barrierefreiheit, Barrierefreiheitstest und Architekturmanagement
 
 <v-clicks>
 
 - **Erstes Release** Dezember 2021
 - **2022** geprägt durch **Reifephase**
 - **2023 Open Source**-Standard
-- **2024** Open Source-**Community**
 
 </v-clicks>
+
+<hr class="w-60 border-dotted" />
+
+<v-clicks>
+
+- **2024** bundesweite **Community**
+
+</v-clicks>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ---
 layout: egg
@@ -197,13 +213,13 @@ handle: 3
 
 <small class="underline">Worin liegt eigentlich das Problem?</small>
 
-Barrierefreie Benutzeroberflächen werden durch die semantisch korrekte Komposition von HTML-Elementen realisiert.
+Die **semantisch korrekte Auszeichnung** der Inhalte im HTML ist für die Barrierefreiheit und deren assistive Unterstützung **essentiell**.
 
 <v-clicks>
 
-Der HTML-Webstandard lässt aber das **Wie** dabei offen. Somit liegt die Aufgabe, das "Problem" zu lösen, bei den Entwickelnden. Darüber hinaus gilt es, die Richtlinien der <kol-abbr _title="Web Content Accessibility Guidelines">WCAG</kol-abbr> mit den gestalterischen Aspekten aus den vielseitigen Styleguides zu vereinen.
+Da die **HTML**-Spezifikation bewusst offen und flexibel (**nicht strickt**) gehaltene wurde, kann es leicht zu semantisch fehlerhaften HTML-Strukturen kommen.
 
-Der **große Vorteil für die Bund** liegt darin, dass wir mittels des Web Component-Standards eine wirklich **zugängliche Lösung** gemeinsam **umsetzen**, **wiederverwenden** (teilen), **verbessern** und **erweitern** können.
+**KoliBri** schließt genau diese Lücke und legt den **Fokus** auf die Erstellung wirklich semantisch korrekter HTML-Strukturen, die die **Anforderungen der Barrierefreiheit** bereits im Code **sicherstellen**, ohne dabei die notwendige Flexibilität und **Gestaltungsfreiheit** zu verlieren.
 
 </v-clicks>
 
