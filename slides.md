@@ -86,9 +86,9 @@ logoHeader: true
 ---
 
 <div class="flex gap-2 mb-4 grey"  data-theme="ecl-eu">
-  <kol-button _icon="codicon codicon-notebook" _icon-only _label="Was ist das?" _variant="primary" />
-  <kol-button _icon="codicon codicon-notebook" _icon-only _label="Was ist das?" _variant="secondary" _tooltip-align="bottom" />
-  <kol-button _icon="codicon codicon-notebook" _icon-only _label="Was ist das?" _tooltip-align="right" />
+  <kol-button _icon="codicon codicon-feedback" _icon-only _label="feedback" _variant="primary" />
+  <kol-button _icon="codicon codicon-comment-draft" _icon-only _label="comment-draft" _tooltip-align="bottom" />
+  <kol-button _icon="codicon codicon-jersey" _icon-only _label="???" _variant="secondary" _tooltip-align="right" />
 </div>
 
 <div class="text-left border-l-3 border-gray-400 p-2 bg-gray-100">
@@ -195,14 +195,6 @@ handle: 2
 
 </v-clicks>
 
-<br/>
-
-<v-clicks>
-
-**Ziel:** Schaffung einer barrierefreien und wiederverwendbaren Standard-Bibliothek, ohne dabei die notwendige Flexibilität und Gestaltungsfreiheit zu verlieren.
-
-</v-clicks>
-
 ---
 layout: image-right-50
 image: '/assets/w3c.jpeg'
@@ -225,22 +217,6 @@ Da die **HTML**-Spezifikation bewusst offen und flexibel (**nicht strickt**) geh
 
 ---
 layout: image-right-50
-image: '/assets/w3c.jpeg'
-handle: 3
----
-
-# Viele Wege führen nach Rom
-
-<small class="underline">Worin liegt eigentlich das Problem?</small>
-
-Barrierefreie Benutzeroberflächen werden durch die semantisch korrekte Komposition von HTML-Elementen realisiert.
-
-Der HTML-Webstandard lässt aber das **Wie** dabei offen. Somit liegt die Aufgabe, das "Problem" zu lösen, bei den Entwickelnden. Darüber hinaus gilt es, die Richtlinien der <kol-abbr _title="Web Content Accessibility Guidelines">WCAG</kol-abbr> mit den gestalterischen Aspekten aus den vielseitigen Styleguides zu vereinen.
-
-Der **große Vorteil für uns Alle** liegt darin, dass wir mittels des Web Component-Standards eine wirklich **zugängliche Lösung** gemeinsam **umsetzen**, **wiederverwenden** (teilen), **verbessern** und **erweitern** können.
-
----
-layout: image-right-50
 image: '/assets/html-js-css.png'
 handle: 4
 ---
@@ -251,13 +227,17 @@ handle: 4
 
 Webseiten werden mit HTML-Elementen umgesetzt.
 
+<v-clicks>
+
 - **Web Components**-Standard ermöglicht **eigene** HTMl-Element zu definieren
 - Das ist **fixiert**
   - Semantik (HTML) → Assistive Systems / Barrierefreiheit
   - Verhalten (JavaScript) → Usability & Barrierefreiheit
 - Das ist **flexibel**
   - Aussehen (CSS) → Corporate Design
-- so entstehen barrierefreie, robuste und wiederverwendbare „Bausteine“
+- so entstehen robuste und wiederverwendbare „Bausteine“
+
+</v-clicks>
 
 ---
 handle: 5
@@ -308,7 +288,8 @@ Im Code-Beispiel wird dargestellt, wie die Anforderungen an die Barrierefreiheit
 <small class="mt-8 text-xs"><sup>\*</sup> Quellcode ist für die bessere Nachvollziehbarkeit stark vereinfacht.</small>
 
 ---
-layout: image-right
+layout: image-right-55
+image: '/assets/architecture.png'
 handle: 7
 ---
 
@@ -403,7 +384,7 @@ Lasst uns gemeinsam KoliBri bunter und besser machen!<br/><br/></small>
 
 
 <ul class="flex">
-  <li class="list-none"><kol-link _href="https://public-ui.github.io"><kol-icon _icon="codicon codicon-book" /> Dokumentation</kol-link></li>
+  <li class="list-none"><kol-link _href="https://public-ui.github.io"><kol-icon _icon="codicon codicon-book" /> public-ui.github.io</kol-link></li>
   <li class="list-none">|</li>
   <li class="list-none"><kol-link _href="mailto:kolibri@itzbund.de"><kol-icon _icon="codicon codicon-mail" /> kolibri@itzbund.de</kol-link></li>
   <li class="list-none">|</li>
