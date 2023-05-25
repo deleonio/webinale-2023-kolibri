@@ -85,6 +85,22 @@ layout: center
 logoHeader: true
 ---
 
+<div class="flex gap-2 mb-4 grey"  data-theme="ecl-eu">
+  <kol-button _icon="codicon codicon-notebook" _icon-only _label="Was ist das?" _variant="primary" />
+  <kol-button _icon="codicon codicon-notebook" _icon-only _label="Was ist das?" _variant="secondary" _tooltip-align="bottom" />
+  <kol-button _icon="codicon codicon-notebook" _icon-only _label="Was ist das?" _tooltip-align="right" />
+</div>
+
+<div class="text-left border-l-3 border-gray-400 p-2 bg-gray-100">
+  <h3>Kontext-bezogene Grafik</h3>
+  Interaktive Elemente mit Kontext-bezogenen Grafiken müssen mit einem Text-Äquivalent versehen werden.
+</div>
+
+---
+layout: center
+logoHeader: true
+---
+
 <v-click>
 
 <img class="m-auto block w-50 pb-15" src="/assets/avatar.png" />
