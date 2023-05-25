@@ -85,12 +85,7 @@
 </template>
 
 <script setup lang="ts">
-import {
-  ref,
-  onMounted,
-  defineComponent,
-  onUnmounted,
-} from "vue";
+import { ref, onMounted, defineComponent, onUnmounted } from "vue";
 import Default from "../theme/layouts/default.vue";
 
 defineComponent({ Default });
@@ -111,14 +106,13 @@ const animateEgg = (index = 0) => {
     eggBreak.value.setAttribute("d", breakLine.slice(0, index).join(" "));
     timeout = setTimeout(() => {
       animateEgg(index + 1);
-    }, 750);
+    }, 250);
   } else {
     timeout = setTimeout(() => {
       animateEgg();
-    }, 2500);
+    }, 1500);
   }
 };
-
 
 onMounted(() => {
   animateEgg();

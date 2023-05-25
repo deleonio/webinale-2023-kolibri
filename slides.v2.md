@@ -13,7 +13,6 @@ drawings:
   persist: false
 css: unocss
 title: Komponenten-Bibliothek für die Barrierefreiheit | KoliBri
-logoHeader: true
 ---
 
 
@@ -23,7 +22,6 @@ logoHeader: true
 
 ---
 layout: about-itzbund
-logoHeader: true
 ---
 
 ## Informationstechnikzentrum Bund
@@ -40,7 +38,6 @@ logoHeader: true
 
 ---
 layout: about-me
-logoHeader: true
 ---
 
 # Speaker
@@ -52,7 +49,6 @@ logoHeader: true
 
 ---
 layout: center
-logoHeader: true
 ---
 
 <div class="flex gap-2 mb-4"  data-theme="bmf">
@@ -67,7 +63,6 @@ logoHeader: true
 
 ---
 layout: center
-logoHeader: true
 ---
 
 <div class="flex gap-2 mb-4 grey"  data-theme="bmf">
@@ -82,7 +77,6 @@ logoHeader: true
 
 ---
 layout: center
-logoHeader: true
 ---
 
 <v-click>
@@ -105,34 +99,24 @@ logoHeader: true
 
 ---
 layout: about-kolibri
-logoHeader: true
 ---
 
 # Facts
 
 - **Start 2021** als internes Projekt
   - **cross-funktionales Team:** Softwarearchitektur, Koordinierende Stelle für die Barrierefreiheit, Barrierefreiheitstest und Architekturmanagement
-
-<v-clicks>
-
 - **Erstes Release** Dezember 2021
 - **2022** geprägt durch **Reifephase**
-- **2023 Open Source**-Standard
-- **2024** Open Source-**Community**
-
-</v-clicks>
+- **2023 Open Source** Standard
 
 ---
 layout: egg
 handle: 1
-logoHeader: true
 ---
 
 # Vom **Ei** zum **Open Source**-Standard
 
 Folgenden Fragen wollen wir auf den Grund gehen?
-
-<v-clicks>
 
 - Was ist die **Motivation** für KoliBri?
 - Worin liegt eigentlich das **Problem**?
@@ -143,8 +127,6 @@ Folgenden Fragen wollen wir auf den Grund gehen?
 - Wo steht KoliBri und wo will er **hin**?
 - Was steckt hinter der **Lizenz EUPL**?
 
-</v-clicks>
-
 ---
 layout: image-right
 handle: 2
@@ -154,42 +136,15 @@ handle: 2
 
 <small class="underline">Welche Ziele können damit verfolgt werden?</small>
 
-<v-clicks>
-
-- gesetzliche Verpflichtung zur barrierefreier Benutzeroberflächen (2025, Privatwirtschaft)
-- Komponentenbibliotheken haben meist Fokus auf Design und fehlende Semantik
+- gesetzliche Verpflichtung zur Erstellung barrierefreier Benutzeroberflächen
+- Großteil der Komponentenbibliotheken haben den Fokus auf Design
 - Anforderungen werden immer wieder neu in Projekten umgesetzt
-- Digitale Souveränität durch Framework- und Herstellerunabhängigkeit
-
-</v-clicks>
+- Reduzierung der Herstellerabhängigkeit (Digitale Souveränität)
 
 <br/>
 
-<v-clicks>
-
-**Ziel:** Schaffung einer barrierefreien und wiederverwendbaren Standard-Bibliothek, ohne dabei die notwendige Flexibilität und Gestaltungsfreiheit zu verlieren.
-
-</v-clicks>
-
----
-layout: image-right-50
-image: '/assets/w3c.jpeg'
-handle: 3
----
-
-# Viele Wege führen nach Rom
-
-<small class="underline">Worin liegt eigentlich das Problem?</small>
-
-Barrierefreie Benutzeroberflächen werden durch die semantisch korrekte Komposition von HTML-Elementen realisiert.
-
-<v-clicks>
-
-Der HTML-Webstandard lässt aber das **Wie** dabei offen. Somit liegt die Aufgabe, das "Problem" zu lösen, bei den Entwickelnden. Darüber hinaus gilt es, die Richtlinien der <kol-abbr _title="Web Content Accessibility Guidelines">WCAG</kol-abbr> mit den gestalterischen Aspekten aus den vielseitigen Styleguides zu vereinen.
-
-Der **große Vorteil für die Bund** liegt darin, dass wir mittels des Web Component-Standards eine wirklich **zugängliche Lösung** gemeinsam **umsetzen**, **wiederverwenden** (teilen), **verbessern** und **erweitern** können.
-
-</v-clicks>
+**Ziel:** Schaffung einer barrierefreien und wieder verwendbaren Standard-Bibliothek, ohne dabei die notwendige Flexibilität und
+Gestaltungsfreiheit zu verlieren.
 
 ---
 layout: image-right-50
@@ -205,7 +160,7 @@ Barrierefreie Benutzeroberflächen werden durch die semantisch korrekte Komposit
 
 Der HTML-Webstandard lässt aber das **Wie** dabei offen. Somit liegt die Aufgabe, das "Problem" zu lösen, bei den Entwickelnden. Darüber hinaus gilt es, die Richtlinien der <kol-abbr _title="Web Content Accessibility Guidelines">WCAG</kol-abbr> mit den gestalterischen Aspekten aus den vielseitigen Styleguides zu vereinen.
 
-Der **große Vorteil für uns Alle** liegt darin, dass wir mittels des Web Component-Standards eine wirklich **zugängliche Lösung** gemeinsam **umsetzen**, **wiederverwenden** (teilen), **verbessern** und **erweitern** können.
+Der **große Vorteil für die Bundesverwaltung** liegt darin, dass wir mittels des Web Component-Standards eine für uns **ideale Lösung** gemeinsam **umsetzen**, **wiederverwenden** (teilen), **verbessern** und **erweitern** können.
 
 ---
 layout: image-right-50
@@ -241,10 +196,9 @@ handle: 5
 ---
 layout: demo-time
 handle: 6
-logoHeader: true
 ---
 
-# Demo-Time
+# Live-Demo
 
 <small class="underline">Wo wird denn hier was eingespart?</small>
 
@@ -358,7 +312,6 @@ Du kannst folgendes tun, um **KoliBri** kennenzulernen …
 
 ---
 layout: center
-logoHeader: true
 ---
 
 <img class="m-auto block w-50 pb-10" src="/assets/qr-code.png" />
@@ -371,15 +324,13 @@ Lasst uns gemeinsam KoliBri bunter und besser machen!<br/><br/></small>
 
 
 <ul class="flex">
-  <li class="list-none"><kol-link _href="https://public-ui.github.io"><kol-icon _icon="codicon codicon-book" /> Dokumentation</kol-link></li>
+  <li class="list-none"><kol-link _href="https://public-ui.github.io" _target="website"><kol-icon _icon="codicon codicon-book" /> Dokumentation</kol-link></li>
   <li class="list-none">|</li>
-  <li class="list-none"><kol-link _href="mailto:kolibri@itzbund.de"><kol-icon _icon="codicon codicon-mail" /> kolibri@itzbund.de</kol-link></li>
+  <li class="list-none"><kol-link _href="mailto:kolibri@itzbund.de" _target="mail"><kol-icon _icon="codicon codicon-mail" /> kolibri@itzbund.de</kol-link></li>
   <li class="list-none">|</li>
-  <li class="list-none"><kol-link _href="https://github.com/public-ui/kolibri"><kol-icon _icon="codicon codicon-github" /> GitHub</kol-link></li>
+  <li class="list-none"><kol-link _href="https://github.com/public-ui/kolibri" _target="github"><kol-icon _icon="codicon codicon-github" /> GitHub</kol-link></li>
 </ul>
 
----
-logoHeader: true
 ---
 
 <kol-logo _org="ITZBund" class="m-auto pl-40 block w-140" />

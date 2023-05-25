@@ -1,23 +1,42 @@
 <template>
-	<footer v-if="website || handle" class="mt-auto grid grid-cols-3 justify-between w-full text-gray-500 dark:text-white">
-		<small>{{ Intl.DateTimeFormat('de-DE', { month: 'long', year: 'numeric' }).format(Date.now()) }}</small>
-		<small class="text-center"><strong>Ko</strong>mponenten-Bib<strong>li</strong>othek für die <strong>B</strong>ar<strong>ri</strong>erefreiheit</small>
-		<small class="text-right">{{ handle }}</small>
-	</footer>
+  <footer
+    v-if="website || handle"
+    class="mt-auto grid grid-cols-3 justify-between w-full text-gray-500 dark:text-white"
+  >
+    <small
+      >webinale,
+      {{
+        Intl.DateTimeFormat("de-DE", { month: "long", year: "numeric" }).format(
+          Date.now()
+        )
+      }}</small
+    >
+    <small class="text-center">
+      <span class="flex gap-2">
+        <kol-link
+          _icon="codicon codicon-inspect"
+          _href="https://public-ui.github.io"
+          _label="public-ui.github.io"
+        />
+        <span class="text-gray font-mono">// follow us</span>
+      </span>
+    </small>
+    <small class="text-right">{{ handle }}</small>
+  </footer>
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue';
+import { defineProps } from "vue";
 
 const props = defineProps({
-	website: {
-		type: String,
-	},
-	middle: {
-		type: String,
-	},
-	handle: {
-		type: String,
-	},
+  website: {
+    type: String,
+  },
+  middle: {
+    type: String,
+  },
+  handle: {
+    type: String,
+  },
 });
 </script>
