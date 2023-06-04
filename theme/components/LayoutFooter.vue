@@ -3,14 +3,7 @@
     v-if="website || handle"
     class="mt-auto grid grid-cols-3 justify-between w-full text-gray-500 dark:text-white"
   >
-    <small
-      >webinale,
-      {{
-        Intl.DateTimeFormat("de-DE", { month: "long", year: "numeric" }).format(
-          Date.now()
-        )
-      }}</small
-    >
+    <small>webinale, 25. Mai 2023</small>
     <small class="text-center">
       <span class="flex gap-2">
         <kol-link
